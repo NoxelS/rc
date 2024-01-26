@@ -1,6 +1,4 @@
 
-alias b='cd ~/projects/backmapping'
-
 # Get git infos
 source ~/.git-prompt.sh
 
@@ -28,8 +26,12 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# mount -a
-
 alias math="~/Mathematica/11.1/Executables/math"
 alias Math="~/Mathematica/11.1/Executables/Mathematica"
 alias vsc="/bin/code-insiders"
+alias chimera="/home/noel/.local/UCSF-Chimera64-1.17.3/bin/chimera"
+
+alias bashrc="vsc ~/.bashrc"
+
+alias b='cd ~/projects/backmapping'
+alias bcode="vsc ~/remote/projects/backmapping"
